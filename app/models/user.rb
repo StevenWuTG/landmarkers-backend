@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-    has_many :landmarks
+    has_many :landmarks, dependent: :destroy
 end
