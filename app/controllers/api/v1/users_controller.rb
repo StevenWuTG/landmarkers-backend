@@ -6,8 +6,12 @@ class Api::V1::UsersController < ApplicationController
     end
 
     def create
-        user = User.create(user_params)
-        render json: user,  except: [:created_at, :updated_at]
+        user = User.create!(user_params)
+        if user.valid?
+            render json: user,  except: [:created_at, :updated_at]
+        else
+            render json: {errors: user.errors} 
+        end 
     end
 
     def show
