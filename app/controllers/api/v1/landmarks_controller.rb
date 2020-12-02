@@ -7,7 +7,12 @@ class Api::V1::LandmarksController < ApplicationController
 
     def create
         landmark = Landmark.create!(landmark_params)
-        render json: landmark, except: [:created_at, :updated_at] 
+        
+        if landmark.valid?
+            render json: landmark,  except: [:created_at, :updated_at]
+        else
+            render json: {errors: landmark.errors} 
+        end 
     end
 
     def show
