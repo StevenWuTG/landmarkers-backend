@@ -20851,3 +20851,1660 @@ Processing by Api::V1::LandmarksController#index as */*
 Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 1.3ms | Allocations: 12258)
 
 
+Started GET "/api/v1/users" for ::1 at 2020-12-03 13:35:58 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.9ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (63.31ms)
+Completed 200 OK in 110ms (Views: 86.7ms | ActiveRecord: 17.0ms | Allocations: 41889)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:03:22 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (137.5ms)
+Completed 200 OK in 149ms (Views: 141.3ms | ActiveRecord: 4.7ms | Allocations: 23810)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:04:11 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (86.3ms)
+Completed 200 OK in 93ms (Views: 84.8ms | ActiveRecord: 7.6ms | Allocations: 23726)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:05:20 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (49.41ms)
+Completed 200 OK in 63ms (Views: 56.3ms | ActiveRecord: 4.4ms | Allocations: 23726)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:05:35 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (35.62ms)
+Completed 200 OK in 90ms (Views: 86.0ms | ActiveRecord: 3.9ms | Allocations: 23709)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:08:02 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (33.18ms)
+Completed 200 OK in 36ms (Views: 32.8ms | ActiveRecord: 3.3ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:15:58 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (217.1ms)
+Completed 200 OK in 235ms (Views: 224.2ms | ActiveRecord: 8.3ms | Allocations: 23810)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:17:40 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (66.13ms)
+Completed 200 OK in 81ms (Views: 74.2ms | ActiveRecord: 4.2ms | Allocations: 23708)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:18:12 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (69.98ms)
+Completed 200 OK in 74ms (Views: 69.6ms | ActiveRecord: 3.9ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:21:03 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.8ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.0ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (127.35ms)
+Completed 200 OK in 141ms (Views: 132.7ms | ActiveRecord: 6.1ms | Allocations: 23709)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:22:41 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (69.47ms)
+Completed 200 OK in 90ms (Views: 80.8ms | ActiveRecord: 5.5ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:24:17 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.9ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (57.03ms)
+Completed 200 OK in 62ms (Views: 56.4ms | ActiveRecord: 5.2ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:25:48 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (117.67ms)
+Completed 200 OK in 136ms (Views: 130.4ms | ActiveRecord: 5.1ms | Allocations: 23710)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:27:13 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (69.08ms)
+Completed 200 OK in 84ms (Views: 76.4ms | ActiveRecord: 5.0ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:28:15 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (61.14ms)
+Completed 200 OK in 66ms (Views: 61.4ms | ActiveRecord: 3.9ms | Allocations: 23707)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:30:26 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (69.01ms)
+Completed 200 OK in 75ms (Views: 69.9ms | ActiveRecord: 3.5ms | Allocations: 23709)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:31:06 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (61.93ms)
+Completed 200 OK in 66ms (Views: 61.0ms | ActiveRecord: 4.1ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:47:09 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.9ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (114.03ms)
+Completed 200 OK in 132ms (Views: 122.8ms | ActiveRecord: 6.4ms | Allocations: 23795)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:56:18 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (65.15ms)
+Completed 200 OK in 77ms (Views: 69.7ms | ActiveRecord: 4.2ms | Allocations: 23793)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:58:07 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (69.85ms)
+Completed 200 OK in 85ms (Views: 76.0ms | ActiveRecord: 5.9ms | Allocations: 23707)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 14:59:10 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (2.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (3.0ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.8ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (159.58ms)
+Completed 200 OK in 165ms (Views: 154.3ms | ActiveRecord: 10.4ms | Allocations: 23709)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:00:43 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.8ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (135.46ms)
+Completed 200 OK in 158ms (Views: 146.6ms | ActiveRecord: 6.9ms | Allocations: 23707)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:06:06 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (161.07ms)
+Completed 200 OK in 183ms (Views: 166.9ms | ActiveRecord: 11.6ms | Allocations: 23798)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:07:51 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.9ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (109.97ms)
+Completed 200 OK in 126ms (Views: 115.5ms | ActiveRecord: 7.2ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:21:30 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (3.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (116.59ms)
+Completed 200 OK in 129ms (Views: 117.7ms | ActiveRecord: 8.8ms | Allocations: 23795)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:23:28 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (82.2ms)
+Completed 200 OK in 100ms (Views: 90.3ms | ActiveRecord: 4.9ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:25:58 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (118.15ms)
+Completed 200 OK in 131ms (Views: 123.3ms | ActiveRecord: 4.6ms | Allocations: 23707)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:28:10 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (106.7ms)
+Completed 200 OK in 112ms (Views: 106.1ms | ActiveRecord: 5.2ms | Allocations: 23709)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:29:05 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (38.04ms)
+Completed 200 OK in 42ms (Views: 38.6ms | ActiveRecord: 2.8ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:29:58 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (70.38ms)
+Completed 200 OK in 77ms (Views: 70.5ms | ActiveRecord: 6.5ms | Allocations: 23709)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:42:05 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (118.86ms)
+Completed 200 OK in 131ms (Views: 122.9ms | ActiveRecord: 5.7ms | Allocations: 23792)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:46:22 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (6.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (129.7ms)
+Completed 200 OK in 156ms (Views: 143.3ms | ActiveRecord: 10.1ms | Allocations: 23709)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:49:49 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (65.72ms)
+Completed 200 OK in 81ms (Views: 72.8ms | ActiveRecord: 5.7ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:57:11 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.8ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (148.0ms)
+Completed 200 OK in 161ms (Views: 152.1ms | ActiveRecord: 7.2ms | Allocations: 23799)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 15:57:59 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (5.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (78.14ms)
+Completed 200 OK in 83ms (Views: 74.6ms | ActiveRecord: 8.5ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 16:00:20 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (209.0ms)
+Completed 200 OK in 239ms (Views: 228.3ms | ActiveRecord: 7.7ms | Allocations: 23710)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 16:02:22 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.9ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (246.43ms)
+Completed 200 OK in 268ms (Views: 258.3ms | ActiveRecord: 6.4ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 17:29:21 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (3.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (42.95ms)
+Completed 200 OK in 53ms (Views: 45.9ms | ActiveRecord: 6.7ms | Allocations: 23793)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 17:36:44 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (3.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (171.3ms)
+Completed 200 OK in 186ms (Views: 175.0ms | ActiveRecord: 8.9ms | Allocations: 23792)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 17:38:03 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (155.05ms)
+Completed 200 OK in 171ms (Views: 164.1ms | ActiveRecord: 4.8ms | Allocations: 23709)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 17:38:24 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (155.3ms)
+Completed 200 OK in 160ms (Views: 155.8ms | ActiveRecord: 3.6ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 17:38:35 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (86.59ms)
+Completed 200 OK in 90ms (Views: 85.7ms | ActiveRecord: 4.0ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 17:44:30 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (8.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (5.0ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (280.97ms)
+Completed 200 OK in 300ms (Views: 276.4ms | ActiveRecord: 19.6ms | Allocations: 23796)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 17:45:07 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (54.97ms)
+Completed 200 OK in 58ms (Views: 53.4ms | ActiveRecord: 4.7ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 17:47:44 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (8.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (1.0ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (2.9ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (22.7ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.6ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.5ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.4ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (276.93ms)
+Completed 200 OK in 320ms (Views: 276.0ms | ActiveRecord: 39.9ms | Allocations: 23706)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-12-03 17:51:03 -0500
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.8ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 59]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 60]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 61]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.3ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 62]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 63]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 64]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 65]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 66]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 67]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 68]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.2ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 69]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 70]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.1ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 57]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mLandmark Load (0.8ms)[0m  [1m[34mSELECT "landmarks".* FROM "landmarks" WHERE "landmarks"."user_id" = $1[0m  [["user_id", 58]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (158.22ms)
+Completed 200 OK in 178ms (Views: 167.8ms | ActiveRecord: 5.9ms | Allocations: 23709)
+
+
