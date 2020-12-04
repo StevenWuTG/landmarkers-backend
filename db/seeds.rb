@@ -40,4 +40,7 @@ puts "creating landmarks"
 landmark1 = Landmark.create!(user: steven, name: "John's pizza", address: "123 fake st ,Flushing, NY, 11355", img_url:"https://media-cdn.tripadvisor.com/media/photo-s/1b/38/4b/1e/suggestion-de-plat.jpg", bio:"Best 1 dollar pizza deal for students", genre:"food")
 
 landmark2 = Landmark.create!(user: karina, name: "Ridgewood Reservoir", address: "Jackie Robinson Pkwy, Brooklyn, NY 11208", img_url:"https://cdn.vox-cdn.com/thumbor/_nuF12hpAgcWg3d0Sb6D01r3Vxs=/0x0:3264x2448/1200x675/filters:focal(1371x963:1893x1485)/cdn.vox-cdn.com/uploads/chorus_image/image/62885850/RidgewoodReservoirBasin2__1___1_.0.jpg", bio:"Beautiful calming park", genre:"park")
+landmark3 = Landmark.create!(user: karina, name: "Mike's Pizza", address: "65 fake street", img_url: "image", bio: "bio", genre: "food")
 
+coord1 = Coord.create!(lat: 40.68593, lng: -73.87294, landmark: landmark2)
+coord2 = Coord.create!(lat: 40.70, lng: -73.88, landmark: landmark3)
