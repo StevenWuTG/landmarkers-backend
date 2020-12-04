@@ -23,7 +23,7 @@ class Api::V1::LandmarksController < ApplicationController
     private
 
     def landmark_params
-        params.require(:landmark).permit(:user_id, :name, :address, :img_url, :bio, :genre)
+        params.require(:landmark).permit(:user_id, :name, :address, :img_url, :bio, :genre, :coord_id)
     end
 
 

@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_30_205956) do
+ActiveRecord::Schema.define(version: 2020_12_04_013452) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "coords", force: :cascade do |t|
+    t.float "lat"
+    t.float "lng"
+    t.bigint "landmark_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["landmark_id"], name: "index_coords_on_landmark_id"
+  end
 
   create_table "landmarks", force: :cascade do |t|
     t.bigint "user_id", null: false
@@ -36,5 +45,6 @@ ActiveRecord::Schema.define(version: 2020_11_30_205956) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "coords", "landmarks"
   add_foreign_key "landmarks", "users"
 end
