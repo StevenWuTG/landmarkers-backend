@@ -5,6 +5,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :landmarks
       resources :users
+      resources :coords
     end
   end
   
