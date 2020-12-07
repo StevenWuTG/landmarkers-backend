@@ -20,6 +20,23 @@ class Api::V1::LandmarksController < ApplicationController
         render json: landmark, except: [:created_at, :updated_at]
     end 
 
+
+    def update
+        landmark = Landmark.find(params[:id])
+        if (landmark.update!(landmark_params))
+            render json: landmark
+        else
+            render json: {errors: landmark.errors} 
+        end 
+    end 
+
+    def destroy
+        allLandmark = Landmark.all
+        landmark = Landmark.find(params[:id])
+        landmark.destroy
+        render json: allLandmark
+    end 
+
     private
 
     def landmark_params
