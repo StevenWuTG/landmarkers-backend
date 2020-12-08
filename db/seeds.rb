@@ -34,7 +34,7 @@ puts "creating users"
 
 steven = User.create!(username: "Steven", hometown:"Flushing", img_url: "https://img.wattpad.com/cover/61392930-288-k852540.jpg", bio: "tester bio" )
 
-karina = User.create!(username: "Karina", hometown: "Cypress Hills", img_url: "./pics/Charmander-Pokemon.png", bio: "tester bio 2" )
+karina = User.create!(username: "Karina", hometown: "Cypress Hills", img_url: "https://i.ytimg.com/vi/7xh1DAKIdng/maxresdefault.jpg", bio: "tester bio 2" )
 
 puts "creating landmarks"
 
